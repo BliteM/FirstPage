@@ -1,0 +1,47 @@
+/**
+ * Reponse desktop when the width of the layout viewport is less than 800px
+ */
+@media screen and (max-width: 800px) {
+    .prime {
+        flex-direction: column;
+    }
+    .header, .main {
+        padding: 0 30px;
+    }
+    .footer-nav, .footer-secondary {
+        flex-direction: column;
+    }
+    .details {
+        flex-direction: column;
+    }
+    .details .image img {
+        width: 80%;
+        height: 80%;
+    }
+    .footer {
+        padding: 80px 30px;
+    }
+    .nav {
+        font-size: 12px;
+    }
+    .header {
+        font-size: 12px;
+    }
+    .search input[type=text] {
+        width: 340px;
+    }
+}
+/**
+ * Response mobile when the width of the layout viewport is greater than 800px
+ */
+@media screen and  (min-width: 800px) {
+    .search input[type=text] {
+        width: 500px;
+    }
+    .footer {
+        padding: 80px 0;
+    }
+    .details {
+        flex-direction: row;
+    }
+}

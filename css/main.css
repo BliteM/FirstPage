@@ -1,0 +1,94 @@
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/**
+ * BENEFITS
+ */
+.benefits {
+    margin: 100px auto;
+    text-align: center;
+}
+.benefits h2 {
+    margin-bottom: 30px;
+}
+.feature {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px 0 0 0;
+}
+.feature-items {
+    flex: 30%;
+    padding: 2em;
+}
+.feature-items p {
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+.feature-items .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 30px auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-image: linear-gradient(to bottom, #2dcb70, #26af61 100%);
+}
+/**
+ * ABOUT VPS
+ */
+.about-vps {
+    margin: 100px auto;
+}
+.about-vps .start {
+    text-align: center;
+    margin: 10px 0 30px 0;
+}
+.details {
+    display: flex;
+    flex-wrap: wrap;
+}
+.details div {
+    flex: 50%;
+}
+.details .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details .text h2 {
+    color: #453c9e;
+}
+.details .text p {
+    margin: 30px 0;
+    line-height: 2em;
+}
+.details .text ul {
+    margin-left: 40px;
+}
+.details .text ul li {
+    margin: 2em 0;
+    line-height: 2em;
+}
+.details .text .button {
+    display: inline-block;
+    padding: 1.4em 3em;
+    border: 2px solid #453c9e;
+    border-radius: 5px;
+    color: #453c9e;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color .1s, background-color .2s;
+}
+.details .text .button:hover {
+    color: #fff;
+    background-color: #453c9e;
+}
+.about-vps .end {
+    text-align: center;
+    margin: 60px 0;
+}
